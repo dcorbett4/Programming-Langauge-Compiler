@@ -1,0 +1,39 @@
+void main ()
+{
+    int f = 4;
+    float k = 9;
+    
+    f = k + 6;
+
+    for (int i = 3; i < 27; i++) {
+        i += 6;
+    }
+
+    while ( f >= 9 && j == 93.5) {
+        f -= 6;
+    }
+
+    if (k > 0 || k < 8) {
+        k = k + i
+    } else {
+        k = k - 7
+    }
+
+    do {
+        i = i + 3;
+    } while (i < 16);
+
+    switch(i) {
+        case 4:
+        case 5:
+            i = 7;
+            break;
+        case 6:
+            return 6;
+        default:
+            i = 0;
+            break;
+    }
+
+    return 0;
+}
